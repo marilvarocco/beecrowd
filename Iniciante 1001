@@ -1,0 +1,26 @@
+Formas de Resolver
+
+Forma 1:
+A=int(input(""))
+B=int(input(""))
+X=A+B
+print(f"X = {X}")
+
+######################################################
+Forma 2:
+
+A=int(input(""))
+B=int(input(""))
+print(f"X = {A+B}")
+
+######################################################
+Forma 3:
+
+def soma (A,B):
+    return A+B
+
+A=int(input(""))
+B=int(input(""))
+print(f"X = {soma(A,B)}")
+
+##############################################
