@@ -1,2 +1,2 @@
 # beecrowd
-Resolvendo exercícios do site.
+Resolvendo exercícios do site em python.
