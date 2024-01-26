@@ -1,2 +1,2 @@
 # beecrowd
-Exercícios resolvidos
+Resolvendo exercícios do site com mais de uma maneira.
