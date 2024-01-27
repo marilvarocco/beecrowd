@@ -1,0 +1,21 @@
+Forma 1:
+
+prod1=input("").split()
+prod2=input("").split()
+valores_1=[]
+valores_2=[]
+for val in prod1:
+    valores_1.append(float(val))
+for val in prod2:
+    valores_2.append(float(val))
+valor_a_pagar=(valores_1[2]* valores_1[1]) + (valores_2[2]*valores_2[1])
+print(f"VALOR A PAGAR: R$ {valor_a_pagar:.2f}")
+    
+##################################################################################
+
+Forma 2:
+
+prod1 = list(map(float, input("").split()))
+prod2 = list(map(float, input("").split()))
+valor_a_pagar = (prod1[2]* prod1[1]) + (prod2[2]*prod2[1])
+print(f"VALOR A PAGAR: R$ {valor_a_pagar:.2f}")
