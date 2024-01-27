@@ -1,0 +1,14 @@
+Forma 1:
+
+A=int(input(""))
+B=int(input(""))
+PROD=A*B
+print(f"PROD = {PROD}")
+
+
+##################################
+Forma 2:
+
+A=int(input(""))
+B=int(input(""))
+print(f"PROD = {A*B}")
