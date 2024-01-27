@@ -1,0 +1,6 @@
+num_funcio=int(input(""))
+horas_trab=int(input(""))
+salario_por_hora=float(input(""))
+SALARIO=horas_trab*salario_por_hora
+print(f"NUMBER = {num_funcio}")
+print(f"SALARY = U$ {SALARIO:.2f}")
