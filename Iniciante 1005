@@ -4,3 +4,4 @@ media= ((A*3.5)+ (B*7.5)) /11
 print(f"MEDIA = {media:.5f}")
 
 Na linha 3 estou multiplicando a nota A pelo peso, B pelo peso. Depois eu pego o resultado dessa multiplicação e faço a soma (RESULTADO A + RESULTADO B), por fim, faço a divisão pela soma dos pesos.
+o ":.5f" serve para limitar as casas decimais.
