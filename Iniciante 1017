@@ -1,0 +1,4 @@
+tempo_viagem=int(input(""))
+velocidade=int(input(""))
+velo_h=velocidade/12 * tempo_viagem
+print(f"{velo_h:.3f}")
